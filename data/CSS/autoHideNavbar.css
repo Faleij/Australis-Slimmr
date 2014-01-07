@@ -1,15 +1,32 @@
 /* Autohide nav bar */
 #nav-bar {
-    -moz-transition: all 100ms linear 0ms !important;
+    -moz-transition: all 200ms linear 0ms !important;
     visibility: visible;
+    position: fixed !important;
+    width: 100%;
+    overflow: hidden;
+	white-space: nowrap;
+	opacity: 1;
+    -moz-box-ordinal-group: 2 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+#nav-bar-customization-target {
+	width: calc(100% - 50px);
 }
 
 #navigator-toolbox:not(:hover)  > #nav-bar {
-    height: 0px;
+	opacity: 0;
     visibility: collapse;
 }
 
 .nav-bar-visible {
-    height: auto !important;
     visibility:visible !important;
+    opacity: 1 !important;
+}
+
+#PersonalToolbar {
+    -moz-box-ordinal-group: 1 !important;
+    background-image: linear-gradient(rgba(253, 253, 253, 0.45), rgba(255, 255, 255, 0));
 }
