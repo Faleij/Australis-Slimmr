@@ -1,0 +1,4 @@
+/* Squeeze Bookmarks toolbar items */
+toolbarbutton.bookmark-item[container="true"] {
+    padding: 0 0 0 3px !important;
+}

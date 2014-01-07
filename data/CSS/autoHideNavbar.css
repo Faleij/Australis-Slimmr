@@ -1,0 +1,15 @@
+/* Autohide nav bar */
+#nav-bar {
+    -moz-transition: all 100ms linear 0ms !important;
+    visibility: visible;
+}
+
+#navigator-toolbox:not(:hover)  > #nav-bar {
+    height: 0px;
+    visibility: collapse;
+}
+
+.nav-bar-visible {
+    height: auto !important;
+    visibility:visible !important;
+}

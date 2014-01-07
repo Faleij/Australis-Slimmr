@@ -1,0 +1,11 @@
+/* Order personal toolbar (bookmarks) above nav bar */
+#PersonalToolbar {
+    -moz-box-ordinal-group: 1 !important;
+    background-image: linear-gradient(rgba(253, 253, 253, 0.45), rgba(255, 255, 255, 0));
+}
+
+#nav-bar {
+    -moz-box-ordinal-group: 2 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
