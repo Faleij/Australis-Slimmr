@@ -5,19 +5,19 @@
     position: fixed !important;
     width: 100%;
     overflow: hidden;
-	white-space: nowrap;
-	opacity: 1;
+    white-space: nowrap;
+    opacity: 1;
     -moz-box-ordinal-group: 2 !important;
     background-image: none !important;
     box-shadow: none !important;
 }
 
 #nav-bar-customization-target {
-	width: calc(100% - 50px);
+    width: calc(100% - 50px);
 }
 
-#navigator-toolbox:not(:hover)  > #nav-bar {
-	opacity: 0;
+#navigator-toolbox:not(:hover)  > #nav-bar:not([customizing]) {
+    opacity: 0;
     visibility: collapse;
 }
 
