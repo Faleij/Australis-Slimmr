@@ -1,0 +1,12 @@
+#TabsToolbar {
+	max-height : 27px !important;
+	border-bottom: none !important;
+	margin-top: -15px !important;
+	padding-bottom: 1px !important;
+	z-index: -1000 !important;
+}
+
+#toolbar-menubar {
+	z-index: 1000 !important;
+	position: absolute;
+}

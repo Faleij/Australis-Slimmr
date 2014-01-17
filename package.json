@@ -1,1 +1,55 @@
-{"description": "Slimming the Australis Theme of Firefox 28", "contributors": [], "icon64": "data/icon64.png", "dependencies": ["api-utils", "addon-kit"], "fullName": "Australis Slimmr", "id": "jid0-FzuVXsJ8V412lHq5CaTLIMJOdd8", "icon": "data/icon.png", "license": "", "main": "main", "preferences": [{"title": "Place Personal Toolbar (Bookmarks) over Navigation bar?", "type": "bool", "name": "personalOverNav", "value": true, "description": "Makes the Personal Toolbar appear over Navigation bar. (Automatically applied when Auto Hiding Nav Bar is checked)"}, {"type": "bool", "name": "compressBookmarksToolbarItems", "value": true, "title": "Compress Bookmarks Toolbar Items?"}, {"title": "Automatically Hide Navigation Bar?", "type": "bool", "name": "autoHideNavbar", "value": true, "description": "The Navigation Bar will only be visible when the mouse is over the Bookmarks and Tabs area, as well as when writing an url or using the searchbar."}, {"title": "Tabs in Titlebar?", "type": "bool", "name": "tabsInTitlebar", "value": true, "description": "Move the tabs into the title bars when having restored(non-fullscreen) windows."}, {"title": "Compress Toolbar/Navigation bar Items?", "type": "bool", "name": "compressToolbar", "value": true, "description": "Should make the Navigation bar slimmer when having custom icons in it."}], "lib": "lib", "author": "Faleij", "url": "", "name": "australis-slimmr", "version": "initial.rev154", "permissions": {"private-browsing": true}}
+{
+    "description": "Slimming the Australis Theme of Firefox 28 and later",
+    "contributors": [],
+    "icon64": "data/icon64.png",
+    "dependencies": ["api-utils", "addon-kit"],
+    "fullName": "Australis Slimmr",
+    "id": "jid0-FzuVXsJ8V412lHq5CaTLIMJOdd8",
+    "icon": "data/icon.png",
+    "license": "",
+    "main": "main",
+    "preferences": [{
+        "title": "Place Personal Toolbar (Bookmarks) over Navigation bar?",
+        "type": "bool",
+        "name": "personalOverNav",
+        "value": true,
+        "description": "Makes the Personal Toolbar appear over Navigation bar. (Automatically applied when Auto Hiding Nav Bar is checked)"
+    }, {
+        "type": "bool",
+        "name": "compressBookmarksToolbarItems",
+        "value": true,
+        "title": "Compress Bookmarks Toolbar Items?"
+    }, {
+        "title": "Automatically Hide Navigation Bar?",
+        "type": "bool",
+        "name": "autoHideNavbar",
+        "value": true,
+        "description": "The Navigation Bar will only be visible when the mouse is over the Bookmarks and Tabs area, as well as when writing an url or using the searchbar."
+    }, {
+        "title": "Tabs in Titlebar?",
+        "type": "bool",
+        "name": "tabsInTitlebar",
+        "value": true,
+        "description": "Move the tabs into the title bars when having restored(non-fullscreen) windows."
+    }, {
+        "title": "Compress Toolbar/Navigation bar Items?",
+        "type": "bool",
+        "name": "compressToolbar",
+        "value": true,
+        "description": "Should make the Navigation bar slimmer when having custom icons in it."
+    }, {
+        "title": "Small Tabbar?",
+        "type": "bool",
+        "name": "smallTabbar",
+        "value": true,
+        "description": "Vertically compresses the tabbar and tabs."
+    }],
+    "lib": "lib",
+    "author": "Faleij",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/australis-slimmr/",
+    "name": "australis-slimmr",
+    "version": "0.3.1.20140118",
+    "permissions": {
+        "private-browsing": true
+    }
+}
