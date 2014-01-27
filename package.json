@@ -9,39 +9,39 @@
     "license": "",
     "main": "main",
     "preferences": [{
-        "title": "Place Personal Toolbar (Bookmarks) over Navigation bar?",
+        "title": "Place Personal Toolbar (Bookmarks) over Navigation Bar",
         "type": "bool",
         "name": "personalOverNav",
         "value": true,
-        "description": "Makes the Personal Toolbar appear over Navigation bar. (Automatically applied when Auto Hiding Nav Bar is checked)"
+        "description": "Makes Personal Toolbar appear over Navigation Bar. (Automatically applied when Auto Hiding Nav Bar is checked)"
     }, {
         "type": "bool",
         "name": "compressBookmarksToolbarItems",
         "value": true,
-        "title": "Compress Bookmarks Toolbar Items?"
+        "title": "Compress Bookmarks Toolbar Items"
     }, {
-        "title": "Automatically Hide Navigation Bar?",
+        "title": "Automatically Hide Navigation Bar",
         "type": "bool",
         "name": "autoHideNavbar",
         "value": true,
         "description": "The Navigation Bar will only be visible when the mouse is over the Bookmarks and Tabs area, as well as when writing an url or using the searchbar."
     }, {
-        "title": "Tabs in Titlebar?",
+        "title": "Tabs in Titlebar",
         "type": "bool",
         "name": "tabsInTitlebar",
         "value": true,
         "description": "Move the tabs into the title bars when having restored(non-fullscreen) windows."
     }, {
-        "title": "Compress Toolbar/Navigation bar Items?",
+        "title": "Compress Toolbar/Navigation Bar Items",
         "type": "bool",
         "name": "compressToolbar",
         "value": true,
-        "description": "Should make the Navigation bar slimmer when having custom icons in it."
+        "description": "Should make the Navigation Bar slimmer when having custom icons in it."
     }, {
-        "title": "Small Tabbar?",
+        "title": "Small Tabbar (Broken)",
         "type": "bool",
         "name": "smallTabbar",
-        "value": true,
+        "value": false,
         "description": "Vertically compresses the tabbar and tabs."
     }],
     "lib": "lib",
