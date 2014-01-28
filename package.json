@@ -26,6 +26,18 @@
         "value": true,
         "description": "The Navigation Bar will only be visible when the mouse is over the Bookmarks and Tabs area, as well as when writing an url or using the searchbar."
     }, {
+        "title": "├ Enable \"Select Location Bar\" Shortcut",
+        "type": "bool",
+        "name": "_selectLocationBarShortcut",
+        "value": true,
+        "description": "Re-enables the \"Select Location Bar\" default shortcut (Ctrl+L on Windows) when \"Automatically Hide Navigation Bar\" is active."
+    }, {
+        "title": "└ Auto Select Location Input on New Tab",
+        "type": "bool",
+        "name": "_selectLocationBar",
+        "value": true,
+        "description": "Re-enables auto selecting the location field when \"Automatically Hide Navigation Bar\" is active."
+    }, {
         "title": "Tabs in Titlebar",
         "type": "bool",
         "name": "tabsInTitlebar",
@@ -42,13 +54,14 @@
         "type": "bool",
         "name": "smallTabbar",
         "value": false,
-        "description": "Vertically compresses the tabbar and tabs."
+        "description": "Vertically compresses the tabbar and tabs.",
+		"hidden": true
     }],
     "lib": "lib",
     "author": "Faleij",
     "url": "https://addons.mozilla.org/en-US/firefox/addon/australis-slimmr/",
     "name": "australis-slimmr",
-    "version": "0.4.2.20140127",
+    "version": "0.4.2.20140128",
     "permissions": {
         "private-browsing": true
     }
