@@ -50,18 +50,18 @@
         "value": true,
         "description": "Should make the Navigation Bar slimmer when having custom icons in it."
     }, {
-        "title": "Small Tabbar (Broken)",
+        "title": "Small Tab Bar (Broken)",
         "type": "bool",
         "name": "smallTabbar",
         "value": false,
-        "description": "Vertically compresses the tabbar and tabs.",
+        "description": "Vertically compresses the Tab Bar and Tabs.",
 		"hidden": true
     }],
     "lib": "lib",
     "author": "Faleij",
     "url": "https://addons.mozilla.org/en-US/firefox/addon/australis-slimmr/",
     "name": "australis-slimmr",
-    "version": "0.4.2.20140128",
+    "version": "0.4.3.20140128",
     "permissions": {
         "private-browsing": true
     }
