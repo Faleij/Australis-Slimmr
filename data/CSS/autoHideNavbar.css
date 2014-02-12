@@ -1,6 +1,6 @@
 /* Autohide nav bar */
 #nav-bar {
-    -moz-transition: all 200ms linear 0ms !important;
+    -moz-transition: all 100ms linear 0ms !important;
     visibility: visible;
     position: fixed !important;
     width: 100%;

@@ -61,7 +61,7 @@
     "author": "Faleij",
     "url": "https://addons.mozilla.org/en-US/firefox/addon/australis-slimmr/",
     "name": "australis-slimmr",
-    "version": "1.0.4.20140208",
+    "version": "1.0.5.20140212",
     "permissions": {
         "private-browsing": true
     }
